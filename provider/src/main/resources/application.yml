@@ -1,0 +1,14 @@
+dubbo:
+  application:
+    name: dubbo-provider
+  registry:
+    address: zookeeper://192.168.43.121:2181
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: com.inet.code
+  config-center:
+    timeout: 6000
+server:
+  port: 8001
